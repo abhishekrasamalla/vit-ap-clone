@@ -1,0 +1,100 @@
+/* src/components/About.css */
+
+.about-section {
+  display: flex;
+  padding: 50px;
+  gap: 50px;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.about-left {
+  width: 60%;
+}
+
+.about-left h2 {
+  color: #750000;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about-left img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.about-left p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.stats div {
+  text-align: center;
+  flex: 1 1 120px;
+}
+
+.stats h3 {
+  color: #750000;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.stats h3 span {
+  font-size: 20px;
+}
+
+.about-right {
+  width: 40%;
+}
+
+.announcement-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.announcement-header h3 {
+  color: #750000;
+  font-size: 20px;
+}
+
+.view-more {
+  color: #750000;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.announcements {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.announcements li {
+  margin-bottom: 15px;
+}
+
+.announcements span {
+  font-size: 12px;
+  font-weight: bold;
+  color: gray;
+}
+
+.announcements p {
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.announcements hr {
+  border: none;
+  border-top: 1px solid #ddd;
+}

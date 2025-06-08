@@ -1,0 +1,133 @@
+/* src/components/Events.css */
+
+.events-section {
+  background-color: #f4dede;
+  padding: 60px 40px;
+  font-family: sans-serif;
+}
+
+.events-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.events-header h2 {
+  color: #500000;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.events-header p {
+  color: #333;
+  max-width: 700px;
+  font-size: 16px;
+}
+
+.see-all {
+  color: #500000;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+}
+
+.see-all::after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 4px;
+  background-color: #500000;
+  margin-top: 5px;
+}
+
+.events-gallery {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.event-card {
+  width: 280px;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.event-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.event-info {
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
+  color: white;
+  width: 100%;
+  padding: 15px;
+}
+
+.event-info h4 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.date-tag {
+  background-color: #500000;
+  color: white;
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.event-listing {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 30px;
+  margin-top: 60px;
+  background-color: #fff;
+  padding: 30px 20px;
+}
+
+.event-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.event-date {
+  background-color: #500000;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px;
+  width: 50px;
+}
+
+.event-date .day {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.event-date .month {
+  font-size: 14px;
+}
+
+.event-details h4 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 18px;
+  color: #222;
+}
+
+.event-details p {
+  margin: 8px 0 0 0;
+  font-size: 14px;
+  color: #555;
+}

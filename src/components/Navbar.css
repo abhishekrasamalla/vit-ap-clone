@@ -1,0 +1,29 @@
+.navbar {
+  background-color: #750000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  align-items: center;
+}
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+.logo span {
+  font-size: 14px;
+  display: block;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-links li {
+  cursor: pointer;
+}
+.extras {
+  display: flex;
+  gap: 15px;
+  font-size: 14px;
+}

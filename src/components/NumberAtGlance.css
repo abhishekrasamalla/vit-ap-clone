@@ -1,0 +1,101 @@
+.number-at-glance-container {
+  background-color: #f3f4f6;
+  padding: 2rem 1rem;
+  font-family: sans-serif;
+}
+
+.number-at-glance-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.image-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+.achievement-image {
+  width: 100%;
+  max-width: 350px;
+  border: 4px solid white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.text-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.description {
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.top-recruiters-container {
+  margin-top: 4rem;
+  background-color: #fcecef;
+  padding: 3rem 1rem;
+  position: relative;
+  text-align: center;
+}
+
+.top-recruiters-label {
+  position: absolute;
+  top: -24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #781c1c;
+  color: white;
+  padding: 0.75rem 2rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.recruiters-scroll {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  overflow-x: auto;
+  margin-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.recruiter-logo-placeholder {
+  min-width: 120px;
+  height: 80px;
+  background-color: #a1a1aa;
+  border-radius: 6px;
+}
+
+.carousel-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+
+.carousel-btn {
+  width: 30px;
+  height: 30px;
+  background: white;
+  border: 1px solid #d1d5db;
+  border-radius: 50%;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+}

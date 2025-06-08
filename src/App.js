@@ -1,23 +1,36 @@
-import logo from './logo.svg';
+import React from 'react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
 import './App.css';
+import Schools from './components/Schools';
+import Programs from './components/Programs';
+import Events from './components/Events';
+import Research from './components/Research';
+import CampusLife from './components/CampusLife';
+import News from './components/News';
+import SocialWall from './components/SocialWall';
+import NumberAtGlance from './components/NumberAtGlance';
+import Footer from './components/Footer';
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Hero />
+      <About />
+      <Schools />
+      <Programs />
+      <Events />
+      <Research />
+      <CampusLife />
+      <News />
+      <SocialWall />
+      <NumberAtGlance />
+      <Footer />
     </div>
   );
 }
