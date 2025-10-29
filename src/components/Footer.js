@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer-container">
       {/* Top Quote Section */}
       <div className="footer-quote">
-        <p>“ Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit amet consectetur ”</p>
+        <p>“ Chenna Keshava”</p>
         <span>-Jagadish Mudiganti</span>
       </div>
 
